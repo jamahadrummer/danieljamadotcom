@@ -149,11 +149,35 @@ button {
 	text-align: center;
 }
 
-/* 
+
 .content3 {
-	border: 5px solid white;
+	background-color: #e5e7eb;
+	display: flex;
+	/* flex-direction: column; */
+	min-width: 1050px;
+	text-align: center;
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	padding: 200px 0px;
 }
 
+.c3box1 {
+	display: flex;
+	justify-content: space-around;
+	width: 400px;
+}
+
+.bodyText {
+	display: inherit;
+}
+
+.attributeText {
+	font-weight: bold;
+	text-align: right;
+}
+
+/*
 .content4 {
 	border: 5px solid white;
 }
