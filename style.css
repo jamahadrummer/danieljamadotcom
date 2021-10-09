@@ -45,13 +45,15 @@ button {
 	justify-content: space-around;
 	margin: 125px 0px;
 	/* border: 5px solid white; */
-	gap: 24px;
 	/* padding: 0 500px; */
 	min-width: 1050px;
 }
 .c1box {
 	display: flex;
-	gap: 100px;
+	justify-content: space-between;
+	width: 1400px;
+	/* flex-shrink: 20%; */
+	/* gap: 200px; */
 }
 
 .content1box1 {
@@ -203,10 +205,37 @@ button {
 	padding: 40px 80px;
 	display: flex;
 	border-radius: 10px;
+	gap: 200px;
 }
 
+.c4left {
+	color: #f9faf8;
+}
 
+.c4left1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.c4left2 {
+	color: #f0faf8;
+	font-size: 18px;
+}
 
+.c4Right {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	/* padding: 5px 25px; */
+	border: 3px solid white;
+	border-radius: 10px;
+}
+
+.c4Right button {
+	padding: 10px 40px;
+	color: #e5e7eb;
+	font-weight: bold;
+
+}
 
 /* .footer {
 	border: 5px solid white;
