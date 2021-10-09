@@ -190,7 +190,6 @@ button {
 	width: 800px;
 }
 
-
 .content4 {
 	background-color: white;
 	min-width: 1050px;
@@ -234,9 +233,13 @@ button {
 	padding: 10px 40px;
 	color: #e5e7eb;
 	font-weight: bold;
-
 }
 
-/* .footer {
+.footer {
+	display: flex;
+	justify-content: space-around;
 	border: 5px solid white;
-} */
+	padding: 50px 0px;
+	font-size: 18px;
+	color: #e5e7eb;
+}
