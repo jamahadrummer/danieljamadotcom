@@ -15,29 +15,43 @@ button {
 }
 
 .header {
-	margin: 0px 200px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	/* border: 5px solid white; */
 	min-width: 1050px;
 }
 
+.hBox {
+	display: flex;
+	justify-content: space-between;
+	width: 1400px;
+	margin: 20px 0px;
+}
+
 .headerLeft {
 	color: #f0faf8;
 	font-size: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .headerRight {
-	margin-right: 16px;
+	/* margin-right: 16px; */
 	color: #e5e7eb;
 	font-size: 18px;
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-around; */
 }
 
 .header ul {
 	display: flex;
 	gap: 16px;
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 .content1 {
@@ -93,7 +107,7 @@ button {
 .gradient1 {
 	height: 100;
 	width: 800;
-	padding: 16px;
+	/* padding: 16px; */
 }
 
 .content2 {
@@ -238,7 +252,6 @@ button {
 .footer {
 	display: flex;
 	justify-content: space-around;
-	border: 5px solid white;
 	padding: 50px 0px;
 	font-size: 18px;
 	color: #e5e7eb;
