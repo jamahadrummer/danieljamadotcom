@@ -149,32 +149,40 @@ button {
 	text-align: center;
 }
 
-
 .content3 {
 	background-color: #e5e7eb;
 	display: flex;
-	/* flex-direction: column; */
+	justify-content: space-around;
+	flex-direction: column;
 	min-width: 1050px;
 	text-align: center;
 	font-size: 36px;
 	font-style: italic;
 	color: #1f2937;
-	padding: 200px 0px;
+	padding: 100px 0px;
 }
 
 .c3box1 {
-	display: flex;
-	justify-content: space-around;
-	width: 400px;
+	display: inherit;
+	justify-content: center;
+	padding: 20px 0px;
+
 }
 
 .bodyText {
 	display: inherit;
+	width: 600px
+}
+
+.c3box2 {
+	display: flex;
+	justify-content: center;
 }
 
 .attributeText {
 	font-weight: bold;
 	text-align: right;
+	width: 800px;
 }
 
 /*
