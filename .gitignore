@@ -1,5 +1,7 @@
 **/guide/
 
+**/.parcel-cache/
+
 .parcel-cache
 
 # Logs
@@ -106,3 +108,5 @@ dist
 
 # TernJS port file
 .tern-port
+*.mdb
+.parcel-cache/data.mdb
