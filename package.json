@@ -1,7 +1,7 @@
 {
-  "name": "odin-landing-page",
-  "version": "1.0.0",
-  "description": "",
+  "name": "danieljama.com",
+  "version": "1.0.1",
+  "description": "Branch of the Odin Landing Page tutorial to apply to me personal website.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
