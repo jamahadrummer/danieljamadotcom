@@ -19,5 +19,8 @@
   "homepage": "https://github.com/jamahadrummer/odin-landing-page#readme",
   "devDependencies": {
     "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4"
   }
 }
