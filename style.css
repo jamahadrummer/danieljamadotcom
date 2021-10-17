@@ -14,6 +14,12 @@ button {
 	border-radius: 6px;
 }
 
+a {
+	/* Link Color for Title (Might Break Future Links) */
+	color: inherit;
+	text-decoration: inherit;
+}
+
 .header {
 	display: flex;
 	justify-content: center;
@@ -32,7 +38,8 @@ button {
 
 .headerLeft {
 	color: #f0faf8;
-	font-size: 24px;
+	font-size: 48px;
+	font-weight: bolder;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -65,23 +72,18 @@ button {
 }
 .c1box {
 	display: flex;
-	justify-content: space-between;
-	width: 1200px;
-	/* flex-shrink: 20%; */
-	/* gap: 200px; */
+	justify-content: space-around;
 }
 
 .content1box1 {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: flex-start;
-	width: 500px;
-	gap: 9px;
+	width: 1000px;
 }
 
 .content1title {
-	font-size: 48px;
+	text-align: center;
+	font-size: 32px;
 	font-weight: bolder;
 	color: #f9faf8;
 }
