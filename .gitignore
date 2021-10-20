@@ -4,6 +4,10 @@
 
 .parcel-cache
 
+**/.eslintrc.js/
+
+.eslintrc.js
+
 # Logs
 logs
 *.log
