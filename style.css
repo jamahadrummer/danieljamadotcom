@@ -154,7 +154,7 @@ a {
 } */
 
 .imagesBox1 {
-	display: inherit;
+	display: flex;
 	flex-direction: column;
 	font-size: 18px;
 	text-align: center;
@@ -169,7 +169,7 @@ a {
 .content2 .box {
 	height: 150px;
 	/* width: 150px; */
-	/* border: 5px solid #3882f6; */
+	border: 5px solid #3882f6;
 	border-radius: 20px;
 }
 
@@ -182,6 +182,7 @@ a {
 }
 
 .box img {
+	display: inherit;
 	height: inherit;
 	width: inherit;
 	border-radius: 10px;
