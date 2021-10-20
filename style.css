@@ -164,12 +164,13 @@ a {
 .box {
 	display: inherit;
 	flex-direction: column;
+	justify-content: space-around;
 }
 
 .content2 .box {
 	height: 150px;
 	/* width: 150px; */
-	border: 5px solid #3882f6;
+	/* border: 5px solid #3882f6; */
 	border-radius: 20px;
 }
 
