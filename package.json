@@ -1,23 +1,27 @@
 {
-  "name": "odin-landing-page",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel *.html"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamahadrummer/odin-landing-page.git"
-  },
-  "author": "Daniel Jama",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jamahadrummer/odin-landing-page/issues"
-  },
-  "homepage": "https://github.com/jamahadrummer/odin-landing-page#readme",
-  "devDependencies": {
-    "parcel": "^2.0.0-rc.0"
-  }
+	"name": "danieljama.com",
+	"version": "1.0.1",
+	"description": "Branch of the Odin Landing Page tutorial to apply to me personal website.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "parcel *.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jamahadrummer/odin-landing-page.git"
+	},
+	"author": "Daniel Jama",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jamahadrummer/odin-landing-page/issues"
+	},
+	"homepage": "https://github.com/jamahadrummer/odin-landing-page#readme",
+	"devDependencies": {
+		"eslint": "^8.0.1",
+		"parcel": "^2.0.0-rc.0"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^5.15.4"
+	}
 }
