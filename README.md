@@ -6,10 +6,9 @@
 
 ## To-Do
 
-- [x] Create dedicated repo with commit history from original repo
-- [ ] Make site live at intended URL
-- [ ] Favicon
-- [ ] Footer
-- [ ] Resume Page
-- [ ] Content1 Content
-
+-   [x] Create dedicated repo with commit history from original repo
+-   [ ] Make site live at intended URL
+-   [ ] Favicon
+-   [ ] Footer
+-   [ ] Resume Page
+-   [ ] Content1 Content
