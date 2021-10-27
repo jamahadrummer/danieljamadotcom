@@ -9,24 +9,28 @@ const pageTurn = (pageName) => {
 	location.href = pageName;
 };
 
+const extLink = (pageURL) => {
+	window.open(pageURL, '_blank')
+}
+
 headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
 content2btn1.addEventListener('click', () => {
-	pageTurn('https://www.flickr.com/jamahadrummer');
+	extLink('https://www.flickr.com/jamahadrummer');
 });
 
 content2btn2.addEventListener('click', () => {
-	pageTurn('https://wwww.instagram.com/jamahadrummer');
+	extLink('https://www.instagram.com/jamahadrummer');
 });
 
 content2btn3.addEventListener('click', () => {
-	pageTurn('https://jamadaniel.wixsite.com/sound-designer');
+	extLink('https://jamadaniel.wixsite.com/sound-designer');
 });
 
 content2btn4.addEventListener('click', () => {
-	pageTurn('https://github.com/jamahadrummer');
+	extLink('https://www.github.com/jamahadrummer');
 });
 
 console.log('End Script');
