@@ -8,7 +8,7 @@
 
 -   [x] Create dedicated repo with commit history from original repo
 -   [ ] Make site live at intended URL
--   [ ] Favicon
+-   [x] Favicon
 -   [ ] Footer
 -   [ ] Resume Page
 -   [ ] Content1 Content
