@@ -15,7 +15,6 @@ button {
 }
 
 a {
-	/* Link Color for Title (Might Break Future Links) */
 	color: inherit;
 	text-decoration: inherit;
 }
@@ -44,6 +43,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+	font-family: 'Font Awesome 5 Regular', sans-serif;
 }
 
 .headerRight {
