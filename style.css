@@ -27,6 +27,7 @@ a {
 	/* border: 5px solid white; */
 	min-width: 1050px;
 	background-color: #8d111b;
+	font-family: 'Font Awesome 5 Regular', sans-serif;
 }
 
 .hBox {
@@ -135,14 +136,14 @@ a {
 .content2box1 {
 	display: inherit;
 	justify-content: center;
-	padding: 40px 0;
+	padding: 40px 0 10px 0;
 }
 
 .images {
 	display: flex;
 	justify-content: center;
 	gap: 100px;
-	padding-bottom: 100px;
+	padding: 50px 0 100px 0;
 }
 
 /* .exampleClass {
@@ -191,10 +192,11 @@ a {
 
 #box3 {
 	background-color: black;
+	/* margin: 5px 5px; */
 	padding: 0px 5px;
 }
 
-#content2btn3 {
+#content2btn3 img {
 	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
 		brightness(92%) contrast(86%);
 }
