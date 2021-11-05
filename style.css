@@ -189,6 +189,16 @@ a {
 	border-radius: 10px;
 }
 
+#box3 {
+	background-color: black;
+	padding: 0px 5px;
+}
+
+#content2btn3 {
+	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
+		brightness(92%) contrast(86%);
+}
+
 .box div {
 	display: inherit;
 	font-size: 16px;
