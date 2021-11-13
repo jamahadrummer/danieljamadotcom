@@ -11,4 +11,5 @@
 -   [x] Favicon
 -   [ ] Footer
 -   [ ] Resume Page
+-   [ ] Certifications Page
 -   [ ] Content1 Content
