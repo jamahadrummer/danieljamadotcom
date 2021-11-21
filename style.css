@@ -138,23 +138,12 @@ a {
 	display: flex;
 	justify-content: center;
 	gap: 100px;
-	padding: 50px 0 100px 0;
+	padding: 20px 0 100px 0;
 }
-
-/* .exampleClass {
-	padding: 12px 24px;
-	backgroundcolor: white;
-	color: black;
-	borderradius: 7px;
-	transition: transform 250ms cubic-bezier(0.2, 0.8, 0.4, 1);
-} */
 
 .iconContainer {
 	display: inherit;
 	flex-direction: column;
-	
-	
-	
 }
 
 .iconSquare {
@@ -165,7 +154,7 @@ a {
 	border: 5px solid black;
 	border-radius: 20px;
 	justify-content: center;
-    align-items: center;
+	align-items: center;
 }
 
 .iconBtn {
@@ -194,20 +183,15 @@ a {
 	transform: scale(0.9);
 }
 
-/* .box img {
-	display: inherit;
-	height: inherit;
-	width: inherit;
-	border-radius: 10px;
-} */
-
-
-
-
 .iconBtn img {
 	filter: invert(95%) sepia(0%) saturate(343%) hue-rotate(219deg)
 		brightness(92%) contrast(86%);
 }
+
+/* .iconSquare button {
+	height: 130px;
+	width: 130px;
+} */
 
 .box div {
 	display: inherit;
