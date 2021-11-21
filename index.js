@@ -10,8 +10,8 @@ const pageTurn = (pageName) => {
 };
 
 const extLink = (pageURL) => {
-	window.open(pageURL, '_blank')
-}
+	window.open(pageURL, '_blank');
+};
 
 headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
