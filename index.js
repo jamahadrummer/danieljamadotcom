@@ -1,35 +1,35 @@
 console.log('Start Script');
 const headerLeftBtn = document.getElementById('headerLeftBtn');
-const content2btn1 = document.getElementById('content2btn1');
-const content2btn2 = document.getElementById('content2btn2');
-const content2btn3 = document.getElementById('content2btn3');
-const content2btn4 = document.getElementById('content2btn4');
+const iconBtn1 = document.getElementById('iconBtn1');
+const iconBtn2 = document.getElementById('iconBtn2');
+const iconBtn3 = document.getElementById('iconBtn3');
+const iconBtn4 = document.getElementById('iconBtn4');
 
 const pageTurn = (pageName) => {
 	location.href = pageName;
 };
 
 const extLink = (pageURL) => {
-	window.open(pageURL, '_blank')
-}
+	window.open(pageURL, '_blank');
+};
 
 headerLeftBtn.addEventListener('click', () => {
 	pageTurn('index.html');
 });
 
-content2btn1.addEventListener('click', () => {
+iconBtn1.addEventListener('click', () => {
 	extLink('https://www.flickr.com/jamahadrummer');
 });
 
-content2btn2.addEventListener('click', () => {
+iconBtn2.addEventListener('click', () => {
 	extLink('https://www.instagram.com/jamahadrummer');
 });
 
-content2btn3.addEventListener('click', () => {
+iconBtn3.addEventListener('click', () => {
 	extLink('https://jamadaniel.wixsite.com/sound-designer');
 });
 
-content2btn4.addEventListener('click', () => {
+iconBtn4.addEventListener('click', () => {
 	extLink('https://www.github.com/jamahadrummer');
 });
 
