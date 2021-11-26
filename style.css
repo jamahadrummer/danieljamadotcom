@@ -149,6 +149,8 @@ a {
 }
 .content1box {
 	display: flex;
+	flex-direction: column;
+	gap: 5px;
 	justify-content: space-around;
 }
 
@@ -159,9 +161,8 @@ a {
 	color: #f9faf8;
 }
 
-.content1second {
-	font-size: 32px;
-	color: #e5e7eb;
+.content1photo {
+	max-width: 900px;
 }
 
 .content1third {
