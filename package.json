@@ -2,10 +2,10 @@
 	"name": "danieljama.com",
 	"version": "1.0.1",
 	"description": "Basic landing page for my personal site danieljama.com",
-	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "parcel index.html"
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
 	},
 	"repository": {
 		"type": "git",
@@ -18,10 +18,10 @@
 	},
 	"homepage": "https://github.com/jamahadrummer/danieljamadotcom#readme",
 	"devDependencies": {
-		"@parcel/packager-raw-url": "^2.0.1",
-		"@parcel/transformer-webmanifest": "^2.0.1",
+		"@parcel/packager-raw-url": "^2.3.2",
+		"@parcel/transformer-webmanifest": "^2.3.2",
 		"eslint": "^8.0.1",
-		"parcel": "^2.0.1"
+		"parcel": "^2.3.2"
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.15.4"
