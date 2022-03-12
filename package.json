@@ -2,10 +2,10 @@
 	"name": "danieljama.com",
 	"version": "1.0.1",
 	"description": "Basic landing page for my personal site danieljama.com",
-	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "parcel index.html"
+		"start": "parcel index.html",
+		"build": "parcel build index.html"
 	},
 	"repository": {
 		"type": "git",
