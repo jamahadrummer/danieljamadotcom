@@ -126,6 +126,7 @@ a {
 
 .headerRight {
 	/* margin-right: 16px; */
+	display: flex;
 	color: #e5e7eb;
 	font-size: 18px;
 	/* display: flex;
