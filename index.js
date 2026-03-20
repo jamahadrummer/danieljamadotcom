@@ -1,4 +1,3 @@
-console.log('Start Script');
 const headerLeftBtn = document.getElementById('headerLeftBtn');
 const iconBtn1 = document.getElementById('iconBtn1');
 const iconBtn2 = document.getElementById('iconBtn2');
@@ -32,5 +31,3 @@ iconBtn3.addEventListener('click', () => {
 iconBtn4.addEventListener('click', () => {
 	extLink('https://www.github.com/jamahadrummer');
 });
-
-console.log('End Script');

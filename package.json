@@ -1,6 +1,6 @@
 {
 	"name": "danieljama.com",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"description": "Basic landing page for my personal site danieljama.com",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -18,12 +18,9 @@
 	},
 	"homepage": "https://github.com/jamahadrummer/danieljamadotcom#readme",
 	"devDependencies": {
-		"@parcel/packager-raw-url": "^2.8.3",
-		"@parcel/transformer-webmanifest": "^2.8.3",
-		"eslint": "^8.33.0",
-		"parcel": "^2.8.3"
+		"@parcel/packager-raw-url": "^2.16.4",
+		"@parcel/transformer-webmanifest": "^2.16.4",
+		"parcel": "^2.16.4"
 	},
-	"dependencies": {
-		"@fortawesome/fontawesome-free": "^5.15.4"
-	}
+	"dependencies": {}
 }
