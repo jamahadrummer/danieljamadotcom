@@ -20,7 +20,6 @@
 	"devDependencies": {
 		"@parcel/packager-raw-url": "^2.16.4",
 		"@parcel/transformer-webmanifest": "^2.16.4",
-		"eslint": "^8.33.0",
 		"parcel": "^2.16.4"
 	},
 	"dependencies": {}

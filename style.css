@@ -1,6 +1,6 @@
 body {
 	background-color: #4d5359;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
+	font-family: sans-serif;
 	display: flex;
 	flex-direction: column;
 	min-width: 1050px;
@@ -26,7 +26,7 @@ a {
 	/* border: 5px solid white; */
 	min-width: 1050px;
 	background-color: #8d111b;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
+	font-family: sans-serif;
 }
 
 .hbox {
@@ -43,7 +43,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	font-family: 'Font Awesome 5 Regular', sans-serif;
+	font-family: sans-serif;
 }
 
 .headerRight {
